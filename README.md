@@ -21,7 +21,7 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - name: Run prettier
-        uses: docker://permafrost-dev/prettier-docker-ga
+        uses: permafrost-dev/prettier-docker-ga@main
         with:
           args: --config prettier.config.js ./src
 
