@@ -9,7 +9,8 @@ LABEL "repository"="http://github.com/permafrost-dev/prettier-docker-ga"
 LABEL "homepage"="http://github.com/actions"
 LABEL "maintainer"="Patrick Organ <patrick@permafrost.dev>"
 
-# TODO: install container specifics
+RUN npm install -g prettier
+COPY ./src /app
 
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
