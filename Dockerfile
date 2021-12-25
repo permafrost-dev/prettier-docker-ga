@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16-alpine
 
 LABEL "com.github.actions.name"="permafrost-prettier-docker-ga"
 LABEL "com.github.actions.description"="run prettier on your code"
