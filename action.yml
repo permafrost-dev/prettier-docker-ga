@@ -1,15 +1,15 @@
 # https://help.github.com/en/articles/metadata-syntax-for-github-actions
 
-author: '{{package.author.name}}'
+author: 'Patrick Organ'
 
 branding:
-    icon: '{{package.action.icon}}'
-    color: '{{package.action.color}}'
+    icon: 'align-center'
+    color: 'blue'
 
-description: '{{package.description}}'
+description: 'run prettier on your code'
 
-name: '{{package.action.name}}'
+name: 'permafrost-prettier-docker-ga'
 
 runs:
     using: 'docker'
-    image: 'docker://{{package.vendor.github}}/{{package.name}}:1.0.0'
+    image: 'docker://permafrost-dev/prettier-docker-ga:1.0.0'

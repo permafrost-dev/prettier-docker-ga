@@ -1,8 +1,7 @@
 # github-action-template-docker
 
-Template Setup: run `node configure-package.js` to configure.
 
-{{package.description}}
+run prettier on your code
 
 ## Changelog
 
@@ -18,7 +17,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [{{package.author.name}}](https://github.com/{{package.author.github}})
+- [Patrick Organ](https://github.com/patinthehat)
 - [All Contributors](../../contributors)
 
 ## License
