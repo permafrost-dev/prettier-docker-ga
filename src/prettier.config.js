@@ -1,5 +1,11 @@
 const overrides = [
     {
+        files: 'docker-compose.yml',
+        options: {
+            tabWidth: 4,
+        },
+    },
+    {
         files: ['*.yml', '*.yaml'],
         options: {
             tabWidth: 2,
